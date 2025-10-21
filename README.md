@@ -36,16 +36,16 @@ The tool provides both view and edit capabilities for MP3 tags, making it a hand
 
 ## 💻 Command-Line Usage
 
-# Compile the program
+Compile the program
 gcc main.c view.c edit.c validate.c -o mp3_tag_reader
 
-# View MP3 tag details
+View MP3 tag details
 ./mp3_tag_reader -v song.mp3
 
-# Edit a specific tag
+Edit a specific tag
 ./mp3_tag_reader -e song.mp3 --title "New Title"
 
-# Display help menu
+Display help menu
 ./mp3_tag_reader --help
 
 ## 🎓 Learning Outcomes
